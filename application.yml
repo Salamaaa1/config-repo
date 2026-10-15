@@ -1,0 +1,16 @@
+campus:
+  organization: EMI
+  message: "TP6-v1"
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: tpbus
+    password: tpbus-local
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,refresh,busrefresh,bus-refresh
