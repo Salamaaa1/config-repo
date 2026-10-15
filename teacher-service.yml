@@ -29,4 +29,4 @@ clients:
     base-url: http://department-service
 
 campus:
-  release: r1
+  release: r2

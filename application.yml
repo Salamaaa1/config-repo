@@ -1,6 +1,6 @@
 campus:
   organization: EMI
-  message: "TP6-v3 testing"
+  message: "TP6-v4 testing"
 
 spring:
   rabbitmq:
