@@ -8,6 +8,14 @@ spring:
     port: 5672
     username: tpbus
     password: tpbus-local
+    listener:
+      simple:
+        missing-queues-fatal: false
+  cloud:
+    stream:
+      bindings:
+        springCloudBusInput:
+          group: bus-refresh
 
 management:
   endpoints:
